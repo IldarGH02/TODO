@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'common/index.scss';
+@import 'widgets/index.scss';
+@import 'pages/index.scss';
+@import "ui/index.scss";
+
+body {
+	max-width: 1600px;
+	min-width: 320px;
+	margin: 0 auto;
+	background-color: $darkGray;
+	font-family: 'Inter', sans-serif;
+
+	#root {
+		height: 100%;
+	}
+}

@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	max-height: 100%;
+	background-color: $darkColor;
+
+	.header__content {
+		display: flex;
+		justify-content: center;
+	}
+}

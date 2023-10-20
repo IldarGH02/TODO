@@ -1,0 +1,30 @@
+.todo__item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 10px;
+	gap: 20px;
+	border-bottom: 1px solid $darkBlue;
+
+	.todo__item-content {
+		max-width: 100%;
+
+		.todo__item-text {
+			word-break: break-all;
+			@include _fontStyles(400, 20px, 25px, $whiteColor)
+		}
+
+		.todo__item-create_date {
+			color: $shadowGray;
+		}
+	}
+
+	.todo__item-actions {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+	}
+}

@@ -1,0 +1,23 @@
+@import './todoItem.scss';
+
+.todos__content {
+	max-width: 100%;
+	padding: 25px;
+	border-radius: 8px;
+	outline: 1px solid $darkBlue;
+
+	.todos__content-title {
+		margin-bottom: 35px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid $darkBlue;
+		@include _fontStyles(600, 30px, 30px, $whiteColor);
+	}
+	.todo__items {
+		display: flex;
+		flex-flow: row wrap;
+		gap: 25px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}

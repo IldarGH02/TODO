@@ -1,0 +1,20 @@
+.todo__item-button {
+	background-color: transparent;
+	border:  none;
+	outline: none;
+
+	svg {
+		width: 25px;
+		height: 25px;
+		color: $darkBlue;
+		transition: color .3s ease-in-out;
+
+		&:focus-within {
+			color: $dangerColor;
+		}
+
+		&:hover {
+			color: $dangerColor;
+		}
+	}
+}
